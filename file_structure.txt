@@ -1,0 +1,2369 @@
+Folder PATH listing for volume Hard Drive
+Volume serial number is DE55-A17B
+H:.
+|   .gitignore
+|   db.sqlite3
+|   file_structure.txt
+|   manage.py
+|   README.md
+|   requirements.txt
+|   testfile.txt
+|   
++---api
+|   |   admin.py
+|   |   apps.py
+|   |   models.py
+|   |   tests.py
+|   |   urls.py
+|   |   views.py
+|   |   __init__.py
+|   |   
+|   +---migrations
+|   |   |   0001_initial.py
+|   |   |   0002_user_profile_pic.py
+|   |   |   0003_rename_user_userprofile.py
+|   |   |   0004_rename_userprofile_user.py
+|   |   |   0005_alter_user_profile_pic.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           0001_initial.cpython-310.pyc
+|   |           0002_user_profile_pic.cpython-310.pyc
+|   |           0003_rename_user_userprofile.cpython-310.pyc
+|   |           0004_rename_userprofile_user.cpython-310.pyc
+|   |           0005_alter_user_profile_pic.cpython-310.pyc
+|   |           __init__.cpython-310.pyc
+|   |           
+|   +---static
+|   |   \---api
+|   |       \---spa
+|   |           |   vite.svg
+|   |           |   
+|   |           \---assets
+|   |                   index-4e5c0698.css
+|   |                   index-969bf769.js
+|   |                   
+|   +---templates
+|   |   \---api
+|   |       \---spa
+|   |               index.html
+|   |               
+|   \---__pycache__
+|           admin.cpython-310.pyc
+|           apps.cpython-310.pyc
+|           models.cpython-310.pyc
+|           urls.cpython-310.pyc
+|           views.cpython-310.pyc
+|           __init__.cpython-310.pyc
+|           
++---frontend
+|   |   .gitignore
+|   |   index.html
+|   |   package-lock.json
+|   |   package.json
+|   |   README.md
+|   |   tsconfig.json
+|   |   tsconfig.node.json
+|   |   vite.config.ts
+|   |   
+|   +---.vscode
+|   |       extensions.json
+|   |       
+|   +---node_modules
+|   |   |   .package-lock.json
+|   |   |   
+|   |   +---.bin
+|   |   |       esbuild
+|   |   |       esbuild.cmd
+|   |   |       esbuild.ps1
+|   |   |       he
+|   |   |       he.cmd
+|   |   |       he.ps1
+|   |   |       nanoid
+|   |   |       nanoid.cmd
+|   |   |       nanoid.ps1
+|   |   |       parser
+|   |   |       parser.cmd
+|   |   |       parser.ps1
+|   |   |       rollup
+|   |   |       rollup.cmd
+|   |   |       rollup.ps1
+|   |   |       semver
+|   |   |       semver.cmd
+|   |   |       semver.ps1
+|   |   |       tsc
+|   |   |       tsc.cmd
+|   |   |       tsc.ps1
+|   |   |       tsserver
+|   |   |       tsserver.cmd
+|   |   |       tsserver.ps1
+|   |   |       vite
+|   |   |       vite.cmd
+|   |   |       vite.ps1
+|   |   |       vue-tsc
+|   |   |       vue-tsc.cmd
+|   |   |       vue-tsc.ps1
+|   |   |       
+|   |   +---.vite
+|   |   |   \---deps
+|   |   |           bootstrap.js
+|   |   |           bootstrap.js.map
+|   |   |           chunk-EYMNJ3H6.js
+|   |   |           chunk-EYMNJ3H6.js.map
+|   |   |           chunk-SSYGV25P.js
+|   |   |           chunk-SSYGV25P.js.map
+|   |   |           package.json
+|   |   |           vue-router.js
+|   |   |           vue-router.js.map
+|   |   |           vue.js
+|   |   |           vue.js.map
+|   |   |           _metadata.json
+|   |   |           
+|   |   +---@babel
+|   |   |   \---parser
+|   |   |       |   CHANGELOG.md
+|   |   |       |   index.cjs
+|   |   |       |   LICENSE
+|   |   |       |   package.json
+|   |   |       |   README.md
+|   |   |       |   
+|   |   |       +---bin
+|   |   |       |       babel-parser.js
+|   |   |       |       
+|   |   |       +---lib
+|   |   |       |       index.js
+|   |   |       |       index.js.map
+|   |   |       |       
+|   |   |       \---typings
+|   |   |               babel-parser.d.ts
+|   |   |               
+|   |   +---@esbuild
+|   |   |   \---win32-x64
+|   |   |           esbuild.exe
+|   |   |           package.json
+|   |   |           README.md
+|   |   |           
+|   |   +---@jridgewell
+|   |   |   \---sourcemap-codec
+|   |   |       |   LICENSE
+|   |   |       |   package.json
+|   |   |       |   README.md
+|   |   |       |   
+|   |   |       \---dist
+|   |   |           |   sourcemap-codec.mjs
+|   |   |           |   sourcemap-codec.mjs.map
+|   |   |           |   sourcemap-codec.umd.js
+|   |   |           |   sourcemap-codec.umd.js.map
+|   |   |           |   
+|   |   |           \---types
+|   |   |                   sourcemap-codec.d.ts
+|   |   |                   
+|   |   +---@popperjs
+|   |   |   \---core
+|   |   |       |   index.d.ts
+|   |   |       |   LICENSE.md
+|   |   |       |   package.json
+|   |   |       |   README.md
+|   |   |       |   
+|   |   |       +---dist
+|   |   |       |   +---cjs
+|   |   |       |   |       enums.js
+|   |   |       |   |       enums.js.flow
+|   |   |       |   |       enums.js.map
+|   |   |       |   |       popper-base.js
+|   |   |       |   |       popper-base.js.flow
+|   |   |       |   |       popper-base.js.map
+|   |   |       |   |       popper-lite.js
+|   |   |       |   |       popper-lite.js.flow
+|   |   |       |   |       popper-lite.js.map
+|   |   |       |   |       popper.js
+|   |   |       |   |       popper.js.flow
+|   |   |       |   |       popper.js.map
+|   |   |       |   |       
+|   |   |       |   +---esm
+|   |   |       |   |   |   createPopper.js
+|   |   |       |   |   |   enums.js
+|   |   |       |   |   |   index.js
+|   |   |       |   |   |   popper-base.js
+|   |   |       |   |   |   popper-lite.js
+|   |   |       |   |   |   popper.js
+|   |   |       |   |   |   types.js
+|   |   |       |   |   |   
+|   |   |       |   |   +---dom-utils
+|   |   |       |   |   |       contains.js
+|   |   |       |   |   |       getBoundingClientRect.js
+|   |   |       |   |   |       getClippingRect.js
+|   |   |       |   |   |       getCompositeRect.js
+|   |   |       |   |   |       getComputedStyle.js
+|   |   |       |   |   |       getDocumentElement.js
+|   |   |       |   |   |       getDocumentRect.js
+|   |   |       |   |   |       getHTMLElementScroll.js
+|   |   |       |   |   |       getLayoutRect.js
+|   |   |       |   |   |       getNodeName.js
+|   |   |       |   |   |       getNodeScroll.js
+|   |   |       |   |   |       getOffsetParent.js
+|   |   |       |   |   |       getParentNode.js
+|   |   |       |   |   |       getScrollParent.js
+|   |   |       |   |   |       getViewportRect.js
+|   |   |       |   |   |       getWindow.js
+|   |   |       |   |   |       getWindowScroll.js
+|   |   |       |   |   |       getWindowScrollBarX.js
+|   |   |       |   |   |       instanceOf.js
+|   |   |       |   |   |       isLayoutViewport.js
+|   |   |       |   |   |       isScrollParent.js
+|   |   |       |   |   |       isTableElement.js
+|   |   |       |   |   |       listScrollParents.js
+|   |   |       |   |   |       
+|   |   |       |   |   +---modifiers
+|   |   |       |   |   |       applyStyles.js
+|   |   |       |   |   |       arrow.js
+|   |   |       |   |   |       computeStyles.js
+|   |   |       |   |   |       eventListeners.js
+|   |   |       |   |   |       flip.js
+|   |   |       |   |   |       hide.js
+|   |   |       |   |   |       index.js
+|   |   |       |   |   |       offset.js
+|   |   |       |   |   |       popperOffsets.js
+|   |   |       |   |   |       preventOverflow.js
+|   |   |       |   |   |       
+|   |   |       |   |   \---utils
+|   |   |       |   |           computeAutoPlacement.js
+|   |   |       |   |           computeOffsets.js
+|   |   |       |   |           debounce.js
+|   |   |       |   |           detectOverflow.js
+|   |   |       |   |           expandToHashMap.js
+|   |   |       |   |           getAltAxis.js
+|   |   |       |   |           getAltLen.js
+|   |   |       |   |           getBasePlacement.js
+|   |   |       |   |           getFreshSideObject.js
+|   |   |       |   |           getMainAxisFromPlacement.js
+|   |   |       |   |           getOppositePlacement.js
+|   |   |       |   |           getOppositeVariationPlacement.js
+|   |   |       |   |           getVariation.js
+|   |   |       |   |           math.js
+|   |   |       |   |           mergeByName.js
+|   |   |       |   |           mergePaddingObject.js
+|   |   |       |   |           orderModifiers.js
+|   |   |       |   |           rectToClientRect.js
+|   |   |       |   |           uniqueBy.js
+|   |   |       |   |           userAgent.js
+|   |   |       |   |           within.js
+|   |   |       |   |           
+|   |   |       |   \---umd
+|   |   |       |           enums.js
+|   |   |       |           enums.js.map
+|   |   |       |           enums.min.js
+|   |   |       |           enums.min.js.flow
+|   |   |       |           enums.min.js.map
+|   |   |       |           popper-base.js
+|   |   |       |           popper-base.js.map
+|   |   |       |           popper-base.min.js
+|   |   |       |           popper-base.min.js.flow
+|   |   |       |           popper-base.min.js.map
+|   |   |       |           popper-lite.js
+|   |   |       |           popper-lite.js.map
+|   |   |       |           popper-lite.min.js
+|   |   |       |           popper-lite.min.js.flow
+|   |   |       |           popper-lite.min.js.map
+|   |   |       |           popper.js
+|   |   |       |           popper.js.map
+|   |   |       |           popper.min.js
+|   |   |       |           popper.min.js.flow
+|   |   |       |           popper.min.js.map
+|   |   |       |           
+|   |   |       \---lib
+|   |   |           |   createPopper.d.ts
+|   |   |           |   createPopper.js
+|   |   |           |   createPopper.js.flow
+|   |   |           |   enums.d.ts
+|   |   |           |   enums.js
+|   |   |           |   enums.js.flow
+|   |   |           |   index.d.ts
+|   |   |           |   index.js
+|   |   |           |   index.js.flow
+|   |   |           |   popper-base.d.ts
+|   |   |           |   popper-base.js
+|   |   |           |   popper-base.js.flow
+|   |   |           |   popper-lite.d.ts
+|   |   |           |   popper-lite.js
+|   |   |           |   popper-lite.js.flow
+|   |   |           |   popper.d.ts
+|   |   |           |   popper.js
+|   |   |           |   popper.js.flow
+|   |   |           |   types.d.ts
+|   |   |           |   types.js
+|   |   |           |   types.js.flow
+|   |   |           |   
+|   |   |           +---dom-utils
+|   |   |           |       contains.d.ts
+|   |   |           |       contains.js
+|   |   |           |       contains.js.flow
+|   |   |           |       getBoundingClientRect.d.ts
+|   |   |           |       getBoundingClientRect.js
+|   |   |           |       getBoundingClientRect.js.flow
+|   |   |           |       getClippingRect.d.ts
+|   |   |           |       getClippingRect.js
+|   |   |           |       getClippingRect.js.flow
+|   |   |           |       getCompositeRect.d.ts
+|   |   |           |       getCompositeRect.js
+|   |   |           |       getCompositeRect.js.flow
+|   |   |           |       getComputedStyle.d.ts
+|   |   |           |       getComputedStyle.js
+|   |   |           |       getComputedStyle.js.flow
+|   |   |           |       getDocumentElement.d.ts
+|   |   |           |       getDocumentElement.js
+|   |   |           |       getDocumentElement.js.flow
+|   |   |           |       getDocumentRect.d.ts
+|   |   |           |       getDocumentRect.js
+|   |   |           |       getDocumentRect.js.flow
+|   |   |           |       getHTMLElementScroll.d.ts
+|   |   |           |       getHTMLElementScroll.js
+|   |   |           |       getHTMLElementScroll.js.flow
+|   |   |           |       getLayoutRect.d.ts
+|   |   |           |       getLayoutRect.js
+|   |   |           |       getLayoutRect.js.flow
+|   |   |           |       getNodeName.d.ts
+|   |   |           |       getNodeName.js
+|   |   |           |       getNodeName.js.flow
+|   |   |           |       getNodeScroll.d.ts
+|   |   |           |       getNodeScroll.js
+|   |   |           |       getNodeScroll.js.flow
+|   |   |           |       getOffsetParent.d.ts
+|   |   |           |       getOffsetParent.js
+|   |   |           |       getOffsetParent.js.flow
+|   |   |           |       getParentNode.d.ts
+|   |   |           |       getParentNode.js
+|   |   |           |       getParentNode.js.flow
+|   |   |           |       getScrollParent.d.ts
+|   |   |           |       getScrollParent.js
+|   |   |           |       getScrollParent.js.flow
+|   |   |           |       getViewportRect.d.ts
+|   |   |           |       getViewportRect.js
+|   |   |           |       getViewportRect.js.flow
+|   |   |           |       getWindow.d.ts
+|   |   |           |       getWindow.js
+|   |   |           |       getWindow.js.flow
+|   |   |           |       getWindowScroll.d.ts
+|   |   |           |       getWindowScroll.js
+|   |   |           |       getWindowScroll.js.flow
+|   |   |           |       getWindowScrollBarX.d.ts
+|   |   |           |       getWindowScrollBarX.js
+|   |   |           |       getWindowScrollBarX.js.flow
+|   |   |           |       instanceOf.d.ts
+|   |   |           |       instanceOf.js
+|   |   |           |       instanceOf.js.flow
+|   |   |           |       isLayoutViewport.d.ts
+|   |   |           |       isLayoutViewport.js
+|   |   |           |       isLayoutViewport.js.flow
+|   |   |           |       isScrollParent.d.ts
+|   |   |           |       isScrollParent.js
+|   |   |           |       isScrollParent.js.flow
+|   |   |           |       isTableElement.d.ts
+|   |   |           |       isTableElement.js
+|   |   |           |       isTableElement.js.flow
+|   |   |           |       listScrollParents.d.ts
+|   |   |           |       listScrollParents.js
+|   |   |           |       listScrollParents.js.flow
+|   |   |           |       
+|   |   |           +---modifiers
+|   |   |           |       applyStyles.d.ts
+|   |   |           |       applyStyles.js
+|   |   |           |       applyStyles.js.flow
+|   |   |           |       arrow.d.ts
+|   |   |           |       arrow.js
+|   |   |           |       arrow.js.flow
+|   |   |           |       computeStyles.d.ts
+|   |   |           |       computeStyles.js
+|   |   |           |       computeStyles.js.flow
+|   |   |           |       eventListeners.d.ts
+|   |   |           |       eventListeners.js
+|   |   |           |       eventListeners.js.flow
+|   |   |           |       flip.d.ts
+|   |   |           |       flip.js
+|   |   |           |       flip.js.flow
+|   |   |           |       hide.d.ts
+|   |   |           |       hide.js
+|   |   |           |       hide.js.flow
+|   |   |           |       index.d.ts
+|   |   |           |       index.js
+|   |   |           |       index.js.flow
+|   |   |           |       offset.d.ts
+|   |   |           |       offset.js
+|   |   |           |       offset.js.flow
+|   |   |           |       popperOffsets.d.ts
+|   |   |           |       popperOffsets.js
+|   |   |           |       popperOffsets.js.flow
+|   |   |           |       preventOverflow.d.ts
+|   |   |           |       preventOverflow.js
+|   |   |           |       preventOverflow.js.flow
+|   |   |           |       
+|   |   |           \---utils
+|   |   |                   computeAutoPlacement.d.ts
+|   |   |                   computeAutoPlacement.js
+|   |   |                   computeAutoPlacement.js.flow
+|   |   |                   computeOffsets.d.ts
+|   |   |                   computeOffsets.js
+|   |   |                   computeOffsets.js.flow
+|   |   |                   debounce.d.ts
+|   |   |                   debounce.js
+|   |   |                   debounce.js.flow
+|   |   |                   detectOverflow.d.ts
+|   |   |                   detectOverflow.js
+|   |   |                   detectOverflow.js.flow
+|   |   |                   expandToHashMap.d.ts
+|   |   |                   expandToHashMap.js
+|   |   |                   expandToHashMap.js.flow
+|   |   |                   getAltAxis.d.ts
+|   |   |                   getAltAxis.js
+|   |   |                   getAltAxis.js.flow
+|   |   |                   getAltLen.d.ts
+|   |   |                   getAltLen.js
+|   |   |                   getAltLen.js.flow
+|   |   |                   getBasePlacement.d.ts
+|   |   |                   getBasePlacement.js
+|   |   |                   getBasePlacement.js.flow
+|   |   |                   getFreshSideObject.d.ts
+|   |   |                   getFreshSideObject.js
+|   |   |                   getFreshSideObject.js.flow
+|   |   |                   getMainAxisFromPlacement.d.ts
+|   |   |                   getMainAxisFromPlacement.js
+|   |   |                   getMainAxisFromPlacement.js.flow
+|   |   |                   getOppositePlacement.d.ts
+|   |   |                   getOppositePlacement.js
+|   |   |                   getOppositePlacement.js.flow
+|   |   |                   getOppositeVariationPlacement.d.ts
+|   |   |                   getOppositeVariationPlacement.js
+|   |   |                   getOppositeVariationPlacement.js.flow
+|   |   |                   getVariation.d.ts
+|   |   |                   getVariation.js
+|   |   |                   getVariation.js.flow
+|   |   |                   math.d.ts
+|   |   |                   math.js
+|   |   |                   math.js.flow
+|   |   |                   mergeByName.d.ts
+|   |   |                   mergeByName.js
+|   |   |                   mergeByName.js.flow
+|   |   |                   mergePaddingObject.d.ts
+|   |   |                   mergePaddingObject.js
+|   |   |                   mergePaddingObject.js.flow
+|   |   |                   orderModifiers.d.ts
+|   |   |                   orderModifiers.js
+|   |   |                   orderModifiers.js.flow
+|   |   |                   rectToClientRect.d.ts
+|   |   |                   rectToClientRect.js
+|   |   |                   rectToClientRect.js.flow
+|   |   |                   uniqueBy.d.ts
+|   |   |                   uniqueBy.js
+|   |   |                   uniqueBy.js.flow
+|   |   |                   userAgent.d.ts
+|   |   |                   userAgent.js
+|   |   |                   userAgent.js.flow
+|   |   |                   within.d.ts
+|   |   |                   within.js
+|   |   |                   within.js.flow
+|   |   |                   
+|   |   +---@types
+|   |   |   \---vue-router
+|   |   |           package.json
+|   |   |           README.md
+|   |   |           
+|   |   +---@vitejs
+|   |   |   \---plugin-vue
+|   |   |       |   LICENSE
+|   |   |       |   package.json
+|   |   |       |   README.md
+|   |   |       |   
+|   |   |       \---dist
+|   |   |               index.cjs
+|   |   |               index.d.cts
+|   |   |               index.d.mts
+|   |   |               index.d.ts
+|   |   |               index.mjs
+|   |   |               
+|   |   +---@volar
+|   |   |   +---language-core
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   
+|   |   |   |   \---out
+|   |   |   |           index.d.ts
+|   |   |   |           index.js
+|   |   |   |           languageContext.d.ts
+|   |   |   |           languageContext.js
+|   |   |   |           sourceMaps.d.ts
+|   |   |   |           sourceMaps.js
+|   |   |   |           types.d.ts
+|   |   |   |           types.js
+|   |   |   |           virtualFiles.d.ts
+|   |   |   |           virtualFiles.js
+|   |   |   |           
+|   |   |   +---source-map
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   
+|   |   |   |   \---out
+|   |   |   |           index.d.ts
+|   |   |   |           index.js
+|   |   |   |           
+|   |   |   \---typescript
+|   |   |       |   LICENSE
+|   |   |       |   package.json
+|   |   |       |   
+|   |   |       \---out
+|   |   |           |   documentRegistry.d.ts
+|   |   |           |   documentRegistry.js
+|   |   |           |   getProgram.d.ts
+|   |   |           |   getProgram.js
+|   |   |           |   index.d.ts
+|   |   |           |   index.js
+|   |   |           |   languageService.d.ts
+|   |   |           |   languageService.js
+|   |   |           |   languageServiceHost.d.ts
+|   |   |           |   languageServiceHost.js
+|   |   |           |   serverPlugin.d.ts
+|   |   |           |   serverPlugin.js
+|   |   |           |   sys.d.ts
+|   |   |           |   sys.js
+|   |   |           |   
+|   |   |           \---typescript
+|   |   |                   core.d.ts
+|   |   |                   core.js
+|   |   |                   corePublic.d.ts
+|   |   |                   corePublic.js
+|   |   |                   path.d.ts
+|   |   |                   path.js
+|   |   |                   types.d.ts
+|   |   |                   types.js
+|   |   |                   utilities.d.ts
+|   |   |                   utilities.js
+|   |   |                   
+|   |   +---@vue
+|   |   |   +---compiler-core
+|   |   |   |   |   index.js
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   \---dist
+|   |   |   |           compiler-core.cjs.js
+|   |   |   |           compiler-core.cjs.prod.js
+|   |   |   |           compiler-core.d.ts
+|   |   |   |           compiler-core.esm-bundler.js
+|   |   |   |           
+|   |   |   +---compiler-dom
+|   |   |   |   |   index.js
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   \---dist
+|   |   |   |           compiler-dom.cjs.js
+|   |   |   |           compiler-dom.cjs.prod.js
+|   |   |   |           compiler-dom.d.ts
+|   |   |   |           compiler-dom.esm-browser.js
+|   |   |   |           compiler-dom.esm-browser.prod.js
+|   |   |   |           compiler-dom.esm-bundler.js
+|   |   |   |           compiler-dom.global.js
+|   |   |   |           compiler-dom.global.prod.js
+|   |   |   |           
+|   |   |   +---compiler-sfc
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   \---dist
+|   |   |   |           compiler-sfc.cjs.js
+|   |   |   |           compiler-sfc.d.ts
+|   |   |   |           compiler-sfc.esm-browser.js
+|   |   |   |           
+|   |   |   +---compiler-ssr
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   \---dist
+|   |   |   |           compiler-ssr.cjs.js
+|   |   |   |           compiler-ssr.d.ts
+|   |   |   |           
+|   |   |   +---devtools-api
+|   |   |   |   |   package.json
+|   |   |   |   |   
+|   |   |   |   \---lib
+|   |   |   |       +---cjs
+|   |   |   |       |   |   const.js
+|   |   |   |       |   |   env.js
+|   |   |   |       |   |   index.js
+|   |   |   |       |   |   plugin.js
+|   |   |   |       |   |   proxy.js
+|   |   |   |       |   |   time.js
+|   |   |   |       |   |   
+|   |   |   |       |   \---api
+|   |   |   |       |           api.js
+|   |   |   |       |           app.js
+|   |   |   |       |           component.js
+|   |   |   |       |           context.js
+|   |   |   |       |           hooks.js
+|   |   |   |       |           index.js
+|   |   |   |       |           util.js
+|   |   |   |       |           
+|   |   |   |       \---esm
+|   |   |   |           |   const.d.ts
+|   |   |   |           |   const.js
+|   |   |   |           |   env.d.ts
+|   |   |   |           |   env.js
+|   |   |   |           |   index.d.ts
+|   |   |   |           |   index.js
+|   |   |   |           |   plugin.d.ts
+|   |   |   |           |   plugin.js
+|   |   |   |           |   proxy.d.ts
+|   |   |   |           |   proxy.js
+|   |   |   |           |   time.d.ts
+|   |   |   |           |   time.js
+|   |   |   |           |   
+|   |   |   |           \---api
+|   |   |   |                   api.d.ts
+|   |   |   |                   api.js
+|   |   |   |                   app.d.ts
+|   |   |   |                   app.js
+|   |   |   |                   component.d.ts
+|   |   |   |                   component.js
+|   |   |   |                   context.d.ts
+|   |   |   |                   context.js
+|   |   |   |                   hooks.d.ts
+|   |   |   |                   hooks.js
+|   |   |   |                   index.d.ts
+|   |   |   |                   index.js
+|   |   |   |                   util.d.ts
+|   |   |   |                   util.js
+|   |   |   |                   
+|   |   |   +---language-core
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   
+|   |   |   |   \---out
+|   |   |   |       |   index.d.ts
+|   |   |   |       |   index.js
+|   |   |   |       |   languageModule.d.ts
+|   |   |   |       |   languageModule.js
+|   |   |   |       |   plugins.d.ts
+|   |   |   |       |   plugins.js
+|   |   |   |       |   types.d.ts
+|   |   |   |       |   types.js
+|   |   |   |       |   
+|   |   |   |       +---generators
+|   |   |   |       |       script.d.ts
+|   |   |   |       |       script.js
+|   |   |   |       |       template.d.ts
+|   |   |   |       |       template.js
+|   |   |   |       |       
+|   |   |   |       +---parsers
+|   |   |   |       |       scriptRanges.d.ts
+|   |   |   |       |       scriptRanges.js
+|   |   |   |       |       scriptSetupRanges.d.ts
+|   |   |   |       |       scriptSetupRanges.js
+|   |   |   |       |       
+|   |   |   |       +---plugins
+|   |   |   |       |       file-html.d.ts
+|   |   |   |       |       file-html.js
+|   |   |   |       |       file-md.d.ts
+|   |   |   |       |       file-md.js
+|   |   |   |       |       file-vue.d.ts
+|   |   |   |       |       file-vue.js
+|   |   |   |       |       vue-sfc-customblocks.d.ts
+|   |   |   |       |       vue-sfc-customblocks.js
+|   |   |   |       |       vue-sfc-scripts.d.ts
+|   |   |   |       |       vue-sfc-scripts.js
+|   |   |   |       |       vue-sfc-styles.d.ts
+|   |   |   |       |       vue-sfc-styles.js
+|   |   |   |       |       vue-sfc-template.d.ts
+|   |   |   |       |       vue-sfc-template.js
+|   |   |   |       |       vue-template-html.d.ts
+|   |   |   |       |       vue-template-html.js
+|   |   |   |       |       vue-tsx.d.ts
+|   |   |   |       |       vue-tsx.js
+|   |   |   |       |       
+|   |   |   |       +---utils
+|   |   |   |       |       globalTypes.d.ts
+|   |   |   |       |       globalTypes.js
+|   |   |   |       |       parseCssClassNames.d.ts
+|   |   |   |       |       parseCssClassNames.js
+|   |   |   |       |       parseCssVars.d.ts
+|   |   |   |       |       parseCssVars.js
+|   |   |   |       |       parseSfc.d.ts
+|   |   |   |       |       parseSfc.js
+|   |   |   |       |       shared.d.ts
+|   |   |   |       |       shared.js
+|   |   |   |       |       transform.d.ts
+|   |   |   |       |       transform.js
+|   |   |   |       |       ts.d.ts
+|   |   |   |       |       ts.js
+|   |   |   |       |       vue2TemplateCompiler.d.ts
+|   |   |   |       |       vue2TemplateCompiler.js
+|   |   |   |       |       
+|   |   |   |       \---virtualFile
+|   |   |   |               computedFiles.d.ts
+|   |   |   |               computedFiles.js
+|   |   |   |               computedMappings.d.ts
+|   |   |   |               computedMappings.js
+|   |   |   |               computedSfc.d.ts
+|   |   |   |               computedSfc.js
+|   |   |   |               computedVueSfc.d.ts
+|   |   |   |               computedVueSfc.js
+|   |   |   |               embeddedFile.d.ts
+|   |   |   |               embeddedFile.js
+|   |   |   |               vueFile.d.ts
+|   |   |   |               vueFile.js
+|   |   |   |               
+|   |   |   +---reactivity
+|   |   |   |   |   index.js
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   \---dist
+|   |   |   |           reactivity.cjs.js
+|   |   |   |           reactivity.cjs.prod.js
+|   |   |   |           reactivity.d.ts
+|   |   |   |           reactivity.esm-browser.js
+|   |   |   |           reactivity.esm-browser.prod.js
+|   |   |   |           reactivity.esm-bundler.js
+|   |   |   |           reactivity.global.js
+|   |   |   |           reactivity.global.prod.js
+|   |   |   |           
+|   |   |   +---reactivity-transform
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   \---dist
+|   |   |   |           reactivity-transform.cjs.js
+|   |   |   |           reactivity-transform.d.ts
+|   |   |   |           
+|   |   |   +---runtime-core
+|   |   |   |   |   index.js
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   \---dist
+|   |   |   |           runtime-core.cjs.js
+|   |   |   |           runtime-core.cjs.prod.js
+|   |   |   |           runtime-core.d.ts
+|   |   |   |           runtime-core.esm-bundler.js
+|   |   |   |           
+|   |   |   +---runtime-dom
+|   |   |   |   |   index.js
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   \---dist
+|   |   |   |           runtime-dom.cjs.js
+|   |   |   |           runtime-dom.cjs.prod.js
+|   |   |   |           runtime-dom.d.ts
+|   |   |   |           runtime-dom.esm-browser.js
+|   |   |   |           runtime-dom.esm-browser.prod.js
+|   |   |   |           runtime-dom.esm-bundler.js
+|   |   |   |           runtime-dom.global.js
+|   |   |   |           runtime-dom.global.prod.js
+|   |   |   |           
+|   |   |   +---server-renderer
+|   |   |   |   |   index.js
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   \---dist
+|   |   |   |           server-renderer.cjs.js
+|   |   |   |           server-renderer.cjs.prod.js
+|   |   |   |           server-renderer.d.ts
+|   |   |   |           server-renderer.esm-browser.js
+|   |   |   |           server-renderer.esm-browser.prod.js
+|   |   |   |           server-renderer.esm-bundler.js
+|   |   |   |           
+|   |   |   \---shared
+|   |   |       |   index.js
+|   |   |       |   LICENSE
+|   |   |       |   package.json
+|   |   |       |   README.md
+|   |   |       |   
+|   |   |       \---dist
+|   |   |               shared.cjs.js
+|   |   |               shared.cjs.prod.js
+|   |   |               shared.d.ts
+|   |   |               shared.esm-bundler.js
+|   |   |               
+|   |   +---balanced-match
+|   |   |   |   index.js
+|   |   |   |   LICENSE.md
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---.github
+|   |   |           FUNDING.yml
+|   |   |           
+|   |   +---bootstrap
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---dist
+|   |   |   |   +---css
+|   |   |   |   |       bootstrap-grid.css
+|   |   |   |   |       bootstrap-grid.css.map
+|   |   |   |   |       bootstrap-grid.min.css
+|   |   |   |   |       bootstrap-grid.min.css.map
+|   |   |   |   |       bootstrap-grid.rtl.css
+|   |   |   |   |       bootstrap-grid.rtl.css.map
+|   |   |   |   |       bootstrap-grid.rtl.min.css
+|   |   |   |   |       bootstrap-grid.rtl.min.css.map
+|   |   |   |   |       bootstrap-reboot.css
+|   |   |   |   |       bootstrap-reboot.css.map
+|   |   |   |   |       bootstrap-reboot.min.css
+|   |   |   |   |       bootstrap-reboot.min.css.map
+|   |   |   |   |       bootstrap-reboot.rtl.css
+|   |   |   |   |       bootstrap-reboot.rtl.css.map
+|   |   |   |   |       bootstrap-reboot.rtl.min.css
+|   |   |   |   |       bootstrap-reboot.rtl.min.css.map
+|   |   |   |   |       bootstrap-utilities.css
+|   |   |   |   |       bootstrap-utilities.css.map
+|   |   |   |   |       bootstrap-utilities.min.css
+|   |   |   |   |       bootstrap-utilities.min.css.map
+|   |   |   |   |       bootstrap-utilities.rtl.css
+|   |   |   |   |       bootstrap-utilities.rtl.css.map
+|   |   |   |   |       bootstrap-utilities.rtl.min.css
+|   |   |   |   |       bootstrap-utilities.rtl.min.css.map
+|   |   |   |   |       bootstrap.css
+|   |   |   |   |       bootstrap.css.map
+|   |   |   |   |       bootstrap.min.css
+|   |   |   |   |       bootstrap.min.css.map
+|   |   |   |   |       bootstrap.rtl.css
+|   |   |   |   |       bootstrap.rtl.css.map
+|   |   |   |   |       bootstrap.rtl.min.css
+|   |   |   |   |       bootstrap.rtl.min.css.map
+|   |   |   |   |       
+|   |   |   |   \---js
+|   |   |   |           bootstrap.bundle.js
+|   |   |   |           bootstrap.bundle.js.map
+|   |   |   |           bootstrap.bundle.min.js
+|   |   |   |           bootstrap.bundle.min.js.map
+|   |   |   |           bootstrap.esm.js
+|   |   |   |           bootstrap.esm.js.map
+|   |   |   |           bootstrap.esm.min.js
+|   |   |   |           bootstrap.esm.min.js.map
+|   |   |   |           bootstrap.js
+|   |   |   |           bootstrap.js.map
+|   |   |   |           bootstrap.min.js
+|   |   |   |           bootstrap.min.js.map
+|   |   |   |           
+|   |   |   +---js
+|   |   |   |   |   index.esm.js
+|   |   |   |   |   index.umd.js
+|   |   |   |   |   
+|   |   |   |   +---dist
+|   |   |   |   |   |   alert.js
+|   |   |   |   |   |   alert.js.map
+|   |   |   |   |   |   base-component.js
+|   |   |   |   |   |   base-component.js.map
+|   |   |   |   |   |   button.js
+|   |   |   |   |   |   button.js.map
+|   |   |   |   |   |   carousel.js
+|   |   |   |   |   |   carousel.js.map
+|   |   |   |   |   |   collapse.js
+|   |   |   |   |   |   collapse.js.map
+|   |   |   |   |   |   dropdown.js
+|   |   |   |   |   |   dropdown.js.map
+|   |   |   |   |   |   modal.js
+|   |   |   |   |   |   modal.js.map
+|   |   |   |   |   |   offcanvas.js
+|   |   |   |   |   |   offcanvas.js.map
+|   |   |   |   |   |   popover.js
+|   |   |   |   |   |   popover.js.map
+|   |   |   |   |   |   scrollspy.js
+|   |   |   |   |   |   scrollspy.js.map
+|   |   |   |   |   |   tab.js
+|   |   |   |   |   |   tab.js.map
+|   |   |   |   |   |   toast.js
+|   |   |   |   |   |   toast.js.map
+|   |   |   |   |   |   tooltip.js
+|   |   |   |   |   |   tooltip.js.map
+|   |   |   |   |   |   
+|   |   |   |   |   +---dom
+|   |   |   |   |   |       data.js
+|   |   |   |   |   |       data.js.map
+|   |   |   |   |   |       event-handler.js
+|   |   |   |   |   |       event-handler.js.map
+|   |   |   |   |   |       manipulator.js
+|   |   |   |   |   |       manipulator.js.map
+|   |   |   |   |   |       selector-engine.js
+|   |   |   |   |   |       selector-engine.js.map
+|   |   |   |   |   |       
+|   |   |   |   |   \---util
+|   |   |   |   |           backdrop.js
+|   |   |   |   |           backdrop.js.map
+|   |   |   |   |           component-functions.js
+|   |   |   |   |           component-functions.js.map
+|   |   |   |   |           config.js
+|   |   |   |   |           config.js.map
+|   |   |   |   |           focustrap.js
+|   |   |   |   |           focustrap.js.map
+|   |   |   |   |           index.js
+|   |   |   |   |           index.js.map
+|   |   |   |   |           sanitizer.js
+|   |   |   |   |           sanitizer.js.map
+|   |   |   |   |           scrollbar.js
+|   |   |   |   |           scrollbar.js.map
+|   |   |   |   |           swipe.js
+|   |   |   |   |           swipe.js.map
+|   |   |   |   |           template-factory.js
+|   |   |   |   |           template-factory.js.map
+|   |   |   |   |           
+|   |   |   |   \---src
+|   |   |   |       |   alert.js
+|   |   |   |       |   base-component.js
+|   |   |   |       |   button.js
+|   |   |   |       |   carousel.js
+|   |   |   |       |   collapse.js
+|   |   |   |       |   dropdown.js
+|   |   |   |       |   modal.js
+|   |   |   |       |   offcanvas.js
+|   |   |   |       |   popover.js
+|   |   |   |       |   scrollspy.js
+|   |   |   |       |   tab.js
+|   |   |   |       |   toast.js
+|   |   |   |       |   tooltip.js
+|   |   |   |       |   
+|   |   |   |       +---dom
+|   |   |   |       |       data.js
+|   |   |   |       |       event-handler.js
+|   |   |   |       |       manipulator.js
+|   |   |   |       |       selector-engine.js
+|   |   |   |       |       
+|   |   |   |       \---util
+|   |   |   |               backdrop.js
+|   |   |   |               component-functions.js
+|   |   |   |               config.js
+|   |   |   |               focustrap.js
+|   |   |   |               index.js
+|   |   |   |               sanitizer.js
+|   |   |   |               scrollbar.js
+|   |   |   |               swipe.js
+|   |   |   |               template-factory.js
+|   |   |   |               
+|   |   |   \---scss
+|   |   |       |   bootstrap-grid.scss
+|   |   |       |   bootstrap-reboot.scss
+|   |   |       |   bootstrap-utilities.scss
+|   |   |       |   bootstrap.scss
+|   |   |       |   _accordion.scss
+|   |   |       |   _alert.scss
+|   |   |       |   _badge.scss
+|   |   |       |   _breadcrumb.scss
+|   |   |       |   _button-group.scss
+|   |   |       |   _buttons.scss
+|   |   |       |   _card.scss
+|   |   |       |   _carousel.scss
+|   |   |       |   _close.scss
+|   |   |       |   _containers.scss
+|   |   |       |   _dropdown.scss
+|   |   |       |   _forms.scss
+|   |   |       |   _functions.scss
+|   |   |       |   _grid.scss
+|   |   |       |   _helpers.scss
+|   |   |       |   _images.scss
+|   |   |       |   _list-group.scss
+|   |   |       |   _maps.scss
+|   |   |       |   _mixins.scss
+|   |   |       |   _modal.scss
+|   |   |       |   _nav.scss
+|   |   |       |   _navbar.scss
+|   |   |       |   _offcanvas.scss
+|   |   |       |   _pagination.scss
+|   |   |       |   _placeholders.scss
+|   |   |       |   _popover.scss
+|   |   |       |   _progress.scss
+|   |   |       |   _reboot.scss
+|   |   |       |   _root.scss
+|   |   |       |   _spinners.scss
+|   |   |       |   _tables.scss
+|   |   |       |   _toasts.scss
+|   |   |       |   _tooltip.scss
+|   |   |       |   _transitions.scss
+|   |   |       |   _type.scss
+|   |   |       |   _utilities.scss
+|   |   |       |   _variables-dark.scss
+|   |   |       |   _variables.scss
+|   |   |       |   
+|   |   |       +---forms
+|   |   |       |       _floating-labels.scss
+|   |   |       |       _form-check.scss
+|   |   |       |       _form-control.scss
+|   |   |       |       _form-range.scss
+|   |   |       |       _form-select.scss
+|   |   |       |       _form-text.scss
+|   |   |       |       _input-group.scss
+|   |   |       |       _labels.scss
+|   |   |       |       _validation.scss
+|   |   |       |       
+|   |   |       +---helpers
+|   |   |       |       _clearfix.scss
+|   |   |       |       _color-bg.scss
+|   |   |       |       _colored-links.scss
+|   |   |       |       _focus-ring.scss
+|   |   |       |       _icon-link.scss
+|   |   |       |       _position.scss
+|   |   |       |       _ratio.scss
+|   |   |       |       _stacks.scss
+|   |   |       |       _stretched-link.scss
+|   |   |       |       _text-truncation.scss
+|   |   |       |       _visually-hidden.scss
+|   |   |       |       _vr.scss
+|   |   |       |       
+|   |   |       +---mixins
+|   |   |       |       _alert.scss
+|   |   |       |       _backdrop.scss
+|   |   |       |       _banner.scss
+|   |   |       |       _border-radius.scss
+|   |   |       |       _box-shadow.scss
+|   |   |       |       _breakpoints.scss
+|   |   |       |       _buttons.scss
+|   |   |       |       _caret.scss
+|   |   |       |       _clearfix.scss
+|   |   |       |       _color-mode.scss
+|   |   |       |       _color-scheme.scss
+|   |   |       |       _container.scss
+|   |   |       |       _deprecate.scss
+|   |   |       |       _forms.scss
+|   |   |       |       _gradients.scss
+|   |   |       |       _grid.scss
+|   |   |       |       _image.scss
+|   |   |       |       _list-group.scss
+|   |   |       |       _lists.scss
+|   |   |       |       _pagination.scss
+|   |   |       |       _reset-text.scss
+|   |   |       |       _resize.scss
+|   |   |       |       _table-variants.scss
+|   |   |       |       _text-truncate.scss
+|   |   |       |       _transition.scss
+|   |   |       |       _utilities.scss
+|   |   |       |       _visually-hidden.scss
+|   |   |       |       
+|   |   |       +---utilities
+|   |   |       |       _api.scss
+|   |   |       |       
+|   |   |       \---vendor
+|   |   |               _rfs.scss
+|   |   |               
+|   |   +---brace-expansion
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---.github
+|   |   |           FUNDING.yml
+|   |   |           
+|   |   +---computeds
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---out
+|   |   |       |   computed.d.ts
+|   |   |       |   computed.js
+|   |   |       |   dep.d.ts
+|   |   |       |   dep.js
+|   |   |       |   effect.d.ts
+|   |   |       |   effect.js
+|   |   |       |   index.d.ts
+|   |   |       |   index.js
+|   |   |       |   signal.d.ts
+|   |   |       |   signal.js
+|   |   |       |   system.d.ts
+|   |   |       |   system.js
+|   |   |       |   tracker.d.ts
+|   |   |       |   tracker.js
+|   |   |       |   
+|   |   |       \---computeds
+|   |   |               computedArray.d.ts
+|   |   |               computedArray.js
+|   |   |               computedSet.d.ts
+|   |   |               computedSet.js
+|   |   |               
+|   |   +---csstype
+|   |   |       index.d.ts
+|   |   |       index.js.flow
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---de-indent
+|   |   |       .npmignore
+|   |   |       index.js
+|   |   |       package.json
+|   |   |       test.js
+|   |   |       
+|   |   +---esbuild
+|   |   |   |   install.js
+|   |   |   |   LICENSE.md
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---bin
+|   |   |   |       esbuild
+|   |   |   |       
+|   |   |   \---lib
+|   |   |           main.d.ts
+|   |   |           main.js
+|   |   |           
+|   |   +---estree-walker
+|   |   |   |   CHANGELOG.md
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---dist
+|   |   |   |   +---esm
+|   |   |   |   |       estree-walker.js
+|   |   |   |   |       package.json
+|   |   |   |   |       
+|   |   |   |   \---umd
+|   |   |   |           estree-walker.js
+|   |   |   |           
+|   |   |   +---src
+|   |   |   |       async.js
+|   |   |   |       index.js
+|   |   |   |       package.json
+|   |   |   |       sync.js
+|   |   |   |       walker.js
+|   |   |   |       
+|   |   |   \---types
+|   |   |           async.d.ts
+|   |   |           index.d.ts
+|   |   |           sync.d.ts
+|   |   |           tsconfig.tsbuildinfo
+|   |   |           walker.d.ts
+|   |   |           
+|   |   +---he
+|   |   |   |   he.js
+|   |   |   |   LICENSE-MIT.txt
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---bin
+|   |   |   |       he
+|   |   |   |       
+|   |   |   \---man
+|   |   |           he.1
+|   |   |           
+|   |   +---lru-cache
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---magic-string
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---dist
+|   |   |           magic-string.cjs.d.ts
+|   |   |           magic-string.cjs.js
+|   |   |           magic-string.cjs.js.map
+|   |   |           magic-string.es.d.mts
+|   |   |           magic-string.es.mjs
+|   |   |           magic-string.es.mjs.map
+|   |   |           magic-string.umd.js
+|   |   |           magic-string.umd.js.map
+|   |   |           
+|   |   +---minimatch
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---dist
+|   |   |       +---cjs
+|   |   |       |       assert-valid-pattern.d.ts
+|   |   |       |       assert-valid-pattern.d.ts.map
+|   |   |       |       assert-valid-pattern.js
+|   |   |       |       assert-valid-pattern.js.map
+|   |   |       |       ast.d.ts
+|   |   |       |       ast.d.ts.map
+|   |   |       |       ast.js
+|   |   |       |       ast.js.map
+|   |   |       |       brace-expressions.d.ts
+|   |   |       |       brace-expressions.d.ts.map
+|   |   |       |       brace-expressions.js
+|   |   |       |       brace-expressions.js.map
+|   |   |       |       escape.d.ts
+|   |   |       |       escape.d.ts.map
+|   |   |       |       escape.js
+|   |   |       |       escape.js.map
+|   |   |       |       index.d.ts
+|   |   |       |       index.d.ts.map
+|   |   |       |       index.js
+|   |   |       |       index.js.map
+|   |   |       |       package.json
+|   |   |       |       unescape.d.ts
+|   |   |       |       unescape.d.ts.map
+|   |   |       |       unescape.js
+|   |   |       |       unescape.js.map
+|   |   |       |       
+|   |   |       \---mjs
+|   |   |               assert-valid-pattern.d.ts
+|   |   |               assert-valid-pattern.d.ts.map
+|   |   |               assert-valid-pattern.js
+|   |   |               assert-valid-pattern.js.map
+|   |   |               ast.d.ts
+|   |   |               ast.d.ts.map
+|   |   |               ast.js
+|   |   |               ast.js.map
+|   |   |               brace-expressions.d.ts
+|   |   |               brace-expressions.d.ts.map
+|   |   |               brace-expressions.js
+|   |   |               brace-expressions.js.map
+|   |   |               escape.d.ts
+|   |   |               escape.d.ts.map
+|   |   |               escape.js
+|   |   |               escape.js.map
+|   |   |               index.d.ts
+|   |   |               index.d.ts.map
+|   |   |               index.js
+|   |   |               index.js.map
+|   |   |               package.json
+|   |   |               unescape.d.ts
+|   |   |               unescape.d.ts.map
+|   |   |               unescape.js
+|   |   |               unescape.js.map
+|   |   |               
+|   |   +---muggle-string
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---out
+|   |   |           binarySearch.d.ts
+|   |   |           binarySearch.js
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           track.d.ts
+|   |   |           track.js
+|   |   |           types.d.ts
+|   |   |           types.js
+|   |   |           
+|   |   +---nanoid
+|   |   |   |   index.browser.cjs
+|   |   |   |   index.browser.js
+|   |   |   |   index.cjs
+|   |   |   |   index.d.cts
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   nanoid.js
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---async
+|   |   |   |       index.browser.cjs
+|   |   |   |       index.browser.js
+|   |   |   |       index.cjs
+|   |   |   |       index.d.ts
+|   |   |   |       index.js
+|   |   |   |       index.native.js
+|   |   |   |       package.json
+|   |   |   |       
+|   |   |   +---bin
+|   |   |   |       nanoid.cjs
+|   |   |   |       
+|   |   |   +---non-secure
+|   |   |   |       index.cjs
+|   |   |   |       index.d.ts
+|   |   |   |       index.js
+|   |   |   |       package.json
+|   |   |   |       
+|   |   |   \---url-alphabet
+|   |   |           index.cjs
+|   |   |           index.js
+|   |   |           package.json
+|   |   |           
+|   |   +---path-browserify
+|   |   |   |   .travis.yml
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   security.md
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           test-path-basename.js
+|   |   |           test-path-dirname.js
+|   |   |           test-path-extname.js
+|   |   |           test-path-isabsolute.js
+|   |   |           test-path-join.js
+|   |   |           test-path-parse-format.js
+|   |   |           test-path-relative.js
+|   |   |           test-path-resolve.js
+|   |   |           test-path-zero-length-strings.js
+|   |   |           test-path.js
+|   |   |           
+|   |   +---picocolors
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       picocolors.browser.js
+|   |   |       picocolors.d.ts
+|   |   |       picocolors.js
+|   |   |       README.md
+|   |   |       types.ts
+|   |   |       
+|   |   +---postcss
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |           at-rule.d.ts
+|   |   |           at-rule.js
+|   |   |           comment.d.ts
+|   |   |           comment.js
+|   |   |           container.d.ts
+|   |   |           container.js
+|   |   |           css-syntax-error.d.ts
+|   |   |           css-syntax-error.js
+|   |   |           declaration.d.ts
+|   |   |           declaration.js
+|   |   |           document.d.ts
+|   |   |           document.js
+|   |   |           fromJSON.d.ts
+|   |   |           fromJSON.js
+|   |   |           input.d.ts
+|   |   |           input.js
+|   |   |           lazy-result.d.ts
+|   |   |           lazy-result.js
+|   |   |           list.d.ts
+|   |   |           list.js
+|   |   |           map-generator.js
+|   |   |           no-work-result.d.ts
+|   |   |           no-work-result.js
+|   |   |           node.d.ts
+|   |   |           node.js
+|   |   |           parse.d.ts
+|   |   |           parse.js
+|   |   |           parser.js
+|   |   |           postcss.d.mts
+|   |   |           postcss.d.ts
+|   |   |           postcss.js
+|   |   |           postcss.mjs
+|   |   |           previous-map.d.ts
+|   |   |           previous-map.js
+|   |   |           processor.d.ts
+|   |   |           processor.js
+|   |   |           result.d.ts
+|   |   |           result.js
+|   |   |           root.d.ts
+|   |   |           root.js
+|   |   |           rule.d.ts
+|   |   |           rule.js
+|   |   |           stringifier.d.ts
+|   |   |           stringifier.js
+|   |   |           stringify.d.ts
+|   |   |           stringify.js
+|   |   |           symbols.js
+|   |   |           terminal-highlight.js
+|   |   |           tokenize.js
+|   |   |           warn-once.js
+|   |   |           warning.d.ts
+|   |   |           warning.js
+|   |   |           
+|   |   +---rollup
+|   |   |   |   LICENSE.md
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---dist
+|   |   |       |   getLogFilter.d.ts
+|   |   |       |   getLogFilter.js
+|   |   |       |   loadConfigFile.d.ts
+|   |   |       |   loadConfigFile.js
+|   |   |       |   rollup.d.ts
+|   |   |       |   rollup.js
+|   |   |       |   
+|   |   |       +---bin
+|   |   |       |       rollup
+|   |   |       |       
+|   |   |       +---es
+|   |   |       |   |   getLogFilter.js
+|   |   |       |   |   package.json
+|   |   |       |   |   rollup.js
+|   |   |       |   |   
+|   |   |       |   \---shared
+|   |   |       |           node-entry.js
+|   |   |       |           watch.js
+|   |   |       |           
+|   |   |       \---shared
+|   |   |               fsevents-importer.js
+|   |   |               index.js
+|   |   |               loadConfigFile.js
+|   |   |               rollup.js
+|   |   |               watch-cli.js
+|   |   |               watch-proxy.js
+|   |   |               watch.js
+|   |   |               
+|   |   +---semver
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   preload.js
+|   |   |   |   range.bnf
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---bin
+|   |   |   |       semver.js
+|   |   |   |       
+|   |   |   +---classes
+|   |   |   |       comparator.js
+|   |   |   |       index.js
+|   |   |   |       range.js
+|   |   |   |       semver.js
+|   |   |   |       
+|   |   |   +---functions
+|   |   |   |       clean.js
+|   |   |   |       cmp.js
+|   |   |   |       coerce.js
+|   |   |   |       compare-build.js
+|   |   |   |       compare-loose.js
+|   |   |   |       compare.js
+|   |   |   |       diff.js
+|   |   |   |       eq.js
+|   |   |   |       gt.js
+|   |   |   |       gte.js
+|   |   |   |       inc.js
+|   |   |   |       lt.js
+|   |   |   |       lte.js
+|   |   |   |       major.js
+|   |   |   |       minor.js
+|   |   |   |       neq.js
+|   |   |   |       parse.js
+|   |   |   |       patch.js
+|   |   |   |       prerelease.js
+|   |   |   |       rcompare.js
+|   |   |   |       rsort.js
+|   |   |   |       satisfies.js
+|   |   |   |       sort.js
+|   |   |   |       valid.js
+|   |   |   |       
+|   |   |   +---internal
+|   |   |   |       constants.js
+|   |   |   |       debug.js
+|   |   |   |       identifiers.js
+|   |   |   |       parse-options.js
+|   |   |   |       re.js
+|   |   |   |       
+|   |   |   \---ranges
+|   |   |           gtr.js
+|   |   |           intersects.js
+|   |   |           ltr.js
+|   |   |           max-satisfying.js
+|   |   |           min-satisfying.js
+|   |   |           min-version.js
+|   |   |           outside.js
+|   |   |           simplify.js
+|   |   |           subset.js
+|   |   |           to-comparators.js
+|   |   |           valid.js
+|   |   |           
+|   |   +---source-map-js
+|   |   |   |   CHANGELOG.md
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   source-map.d.ts
+|   |   |   |   source-map.js
+|   |   |   |   
+|   |   |   \---lib
+|   |   |           array-set.js
+|   |   |           base64-vlq.js
+|   |   |           base64.js
+|   |   |           binary-search.js
+|   |   |           mapping-list.js
+|   |   |           quick-sort.js
+|   |   |           source-map-consumer.js
+|   |   |           source-map-generator.js
+|   |   |           source-node.js
+|   |   |           util.js
+|   |   |           
+|   |   +---typescript
+|   |   |   |   LICENSE.txt
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   SECURITY.md
+|   |   |   |   ThirdPartyNoticeText.txt
+|   |   |   |   
+|   |   |   +---bin
+|   |   |   |       tsc
+|   |   |   |       tsserver
+|   |   |   |       
+|   |   |   \---lib
+|   |   |       |   cancellationToken.js
+|   |   |       |   lib.d.ts
+|   |   |       |   lib.decorators.d.ts
+|   |   |       |   lib.decorators.legacy.d.ts
+|   |   |       |   lib.dom.d.ts
+|   |   |       |   lib.dom.iterable.d.ts
+|   |   |       |   lib.es2015.collection.d.ts
+|   |   |       |   lib.es2015.core.d.ts
+|   |   |       |   lib.es2015.d.ts
+|   |   |       |   lib.es2015.generator.d.ts
+|   |   |       |   lib.es2015.iterable.d.ts
+|   |   |       |   lib.es2015.promise.d.ts
+|   |   |       |   lib.es2015.proxy.d.ts
+|   |   |       |   lib.es2015.reflect.d.ts
+|   |   |       |   lib.es2015.symbol.d.ts
+|   |   |       |   lib.es2015.symbol.wellknown.d.ts
+|   |   |       |   lib.es2016.array.include.d.ts
+|   |   |       |   lib.es2016.d.ts
+|   |   |       |   lib.es2016.full.d.ts
+|   |   |       |   lib.es2017.d.ts
+|   |   |       |   lib.es2017.date.d.ts
+|   |   |       |   lib.es2017.full.d.ts
+|   |   |       |   lib.es2017.intl.d.ts
+|   |   |       |   lib.es2017.object.d.ts
+|   |   |       |   lib.es2017.sharedmemory.d.ts
+|   |   |       |   lib.es2017.string.d.ts
+|   |   |       |   lib.es2017.typedarrays.d.ts
+|   |   |       |   lib.es2018.asyncgenerator.d.ts
+|   |   |       |   lib.es2018.asynciterable.d.ts
+|   |   |       |   lib.es2018.d.ts
+|   |   |       |   lib.es2018.full.d.ts
+|   |   |       |   lib.es2018.intl.d.ts
+|   |   |       |   lib.es2018.promise.d.ts
+|   |   |       |   lib.es2018.regexp.d.ts
+|   |   |       |   lib.es2019.array.d.ts
+|   |   |       |   lib.es2019.d.ts
+|   |   |       |   lib.es2019.full.d.ts
+|   |   |       |   lib.es2019.intl.d.ts
+|   |   |       |   lib.es2019.object.d.ts
+|   |   |       |   lib.es2019.string.d.ts
+|   |   |       |   lib.es2019.symbol.d.ts
+|   |   |       |   lib.es2020.bigint.d.ts
+|   |   |       |   lib.es2020.d.ts
+|   |   |       |   lib.es2020.date.d.ts
+|   |   |       |   lib.es2020.full.d.ts
+|   |   |       |   lib.es2020.intl.d.ts
+|   |   |       |   lib.es2020.number.d.ts
+|   |   |       |   lib.es2020.promise.d.ts
+|   |   |       |   lib.es2020.sharedmemory.d.ts
+|   |   |       |   lib.es2020.string.d.ts
+|   |   |       |   lib.es2020.symbol.wellknown.d.ts
+|   |   |       |   lib.es2021.d.ts
+|   |   |       |   lib.es2021.full.d.ts
+|   |   |       |   lib.es2021.intl.d.ts
+|   |   |       |   lib.es2021.promise.d.ts
+|   |   |       |   lib.es2021.string.d.ts
+|   |   |       |   lib.es2021.weakref.d.ts
+|   |   |       |   lib.es2022.array.d.ts
+|   |   |       |   lib.es2022.d.ts
+|   |   |       |   lib.es2022.error.d.ts
+|   |   |       |   lib.es2022.full.d.ts
+|   |   |       |   lib.es2022.intl.d.ts
+|   |   |       |   lib.es2022.object.d.ts
+|   |   |       |   lib.es2022.regexp.d.ts
+|   |   |       |   lib.es2022.sharedmemory.d.ts
+|   |   |       |   lib.es2022.string.d.ts
+|   |   |       |   lib.es2023.array.d.ts
+|   |   |       |   lib.es2023.collection.d.ts
+|   |   |       |   lib.es2023.d.ts
+|   |   |       |   lib.es2023.full.d.ts
+|   |   |       |   lib.es5.d.ts
+|   |   |       |   lib.es6.d.ts
+|   |   |       |   lib.esnext.d.ts
+|   |   |       |   lib.esnext.decorators.d.ts
+|   |   |       |   lib.esnext.disposable.d.ts
+|   |   |       |   lib.esnext.full.d.ts
+|   |   |       |   lib.esnext.intl.d.ts
+|   |   |       |   lib.scripthost.d.ts
+|   |   |       |   lib.webworker.d.ts
+|   |   |       |   lib.webworker.importscripts.d.ts
+|   |   |       |   lib.webworker.iterable.d.ts
+|   |   |       |   tsc.js
+|   |   |       |   tsserver.js
+|   |   |       |   tsserverlibrary.d.ts
+|   |   |       |   tsserverlibrary.js
+|   |   |       |   typescript.d.ts
+|   |   |       |   typescript.js
+|   |   |       |   typesMap.json
+|   |   |       |   typingsInstaller.js
+|   |   |       |   watchGuard.js
+|   |   |       |   
+|   |   |       +---cs
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       +---de
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       +---es
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       +---fr
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       +---it
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       +---ja
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       +---ko
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       +---pl
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       +---pt-br
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       +---ru
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       +---tr
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       +---zh-cn
+|   |   |       |       diagnosticMessages.generated.json
+|   |   |       |       
+|   |   |       \---zh-tw
+|   |   |               diagnosticMessages.generated.json
+|   |   |               
+|   |   +---vite
+|   |   |   |   client.d.ts
+|   |   |   |   index.cjs
+|   |   |   |   LICENSE.md
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---bin
+|   |   |   |       openChrome.applescript
+|   |   |   |       vite.js
+|   |   |   |       
+|   |   |   +---dist
+|   |   |   |   +---client
+|   |   |   |   |       client.mjs
+|   |   |   |   |       client.mjs.map
+|   |   |   |   |       env.mjs
+|   |   |   |   |       env.mjs.map
+|   |   |   |   |       
+|   |   |   |   +---node
+|   |   |   |   |   |   cli.js
+|   |   |   |   |   |   constants.js
+|   |   |   |   |   |   index.d.ts
+|   |   |   |   |   |   index.js
+|   |   |   |   |   |   
+|   |   |   |   |   \---chunks
+|   |   |   |   |           dep-98d4beff.js
+|   |   |   |   |           dep-bb8a8339.js
+|   |   |   |   |           dep-c423598f.js
+|   |   |   |   |           dep-e4a495ce.js
+|   |   |   |   |           dep-f0c7dae0.js
+|   |   |   |   |           
+|   |   |   |   \---node-cjs
+|   |   |   |           publicUtils.cjs
+|   |   |   |           
+|   |   |   \---types
+|   |   |           customEvent.d.ts
+|   |   |           hmrPayload.d.ts
+|   |   |           hot.d.ts
+|   |   |           importGlob.d.ts
+|   |   |           importMeta.d.ts
+|   |   |           metadata.d.ts
+|   |   |           package.json
+|   |   |           
+|   |   +---vue
+|   |   |   |   index.js
+|   |   |   |   index.mjs
+|   |   |   |   jsx.d.ts
+|   |   |   |   LICENSE
+|   |   |   |   macros-global.d.ts
+|   |   |   |   macros.d.ts
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   ref-macros.d.ts
+|   |   |   |   
+|   |   |   +---compiler-sfc
+|   |   |   |       index.browser.js
+|   |   |   |       index.browser.mjs
+|   |   |   |       index.d.mts
+|   |   |   |       index.d.ts
+|   |   |   |       index.js
+|   |   |   |       index.mjs
+|   |   |   |       package.json
+|   |   |   |       register-ts.js
+|   |   |   |       
+|   |   |   +---dist
+|   |   |   |       vue.cjs.js
+|   |   |   |       vue.cjs.prod.js
+|   |   |   |       vue.d.mts
+|   |   |   |       vue.d.ts
+|   |   |   |       vue.esm-browser.js
+|   |   |   |       vue.esm-browser.prod.js
+|   |   |   |       vue.esm-bundler.js
+|   |   |   |       vue.global.js
+|   |   |   |       vue.global.prod.js
+|   |   |   |       vue.runtime.esm-browser.js
+|   |   |   |       vue.runtime.esm-browser.prod.js
+|   |   |   |       vue.runtime.esm-bundler.js
+|   |   |   |       vue.runtime.global.js
+|   |   |   |       vue.runtime.global.prod.js
+|   |   |   |       
+|   |   |   +---jsx-runtime
+|   |   |   |       index.d.ts
+|   |   |   |       index.js
+|   |   |   |       index.mjs
+|   |   |   |       package.json
+|   |   |   |       
+|   |   |   \---server-renderer
+|   |   |           index.d.mts
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           index.mjs
+|   |   |           package.json
+|   |   |           
+|   |   +---vue-router
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---dist
+|   |   |   |       vue-router.cjs
+|   |   |   |       vue-router.cjs.js
+|   |   |   |       vue-router.cjs.prod.js
+|   |   |   |       vue-router.d.ts
+|   |   |   |       vue-router.esm-browser.js
+|   |   |   |       vue-router.esm-bundler.js
+|   |   |   |       vue-router.global.js
+|   |   |   |       vue-router.global.prod.js
+|   |   |   |       vue-router.mjs
+|   |   |   |       vue-router.node.mjs
+|   |   |   |       vue-router.prod.cjs
+|   |   |   |       
+|   |   |   \---vetur
+|   |   |           attributes.json
+|   |   |           tags.json
+|   |   |           
+|   |   +---vue-template-compiler
+|   |   |   |   browser.js
+|   |   |   |   build.js
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---types
+|   |   |           index.d.ts
+|   |   |           
+|   |   +---vue-tsc
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---bin
+|   |   |   |       vue-tsc.js
+|   |   |   |       
+|   |   |   \---out
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           shared.d.ts
+|   |   |           shared.js
+|   |   |           
+|   |   \---yallist
+|   |           iterator.js
+|   |           LICENSE
+|   |           package.json
+|   |           README.md
+|   |           yallist.js
+|   |           
+|   +---public
+|   |       vite.svg
+|   |       
+|   \---src
+|       |   App.vue
+|       |   main.ts
+|       |   vite-env.d.ts
+|       |   
+|       +---assets
+|       |       vue.svg
+|       |       
+|       +---pages
+|       |       MainPage.vue
+|       |       OtherPage.vue
+|       |       
+|       \---router
+|               index.ts
+|               
++---media
+|   \---images
+|           image-product-desktop.jpg
+|           
++---project
+|   |   asgi.py
+|   |   database.py
+|   |   settings.py
+|   |   urls.py
+|   |   wsgi.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           database.cpython-310.pyc
+|           settings.cpython-310.pyc
+|           urls.cpython-310.pyc
+|           wsgi.cpython-310.pyc
+|           __init__.cpython-310.pyc
+|           
+\---staticfiles
+    |   staticfiles.json
+    |   
+    +---admin
+    |   +---css
+    |   |   |   autocomplete.4a81fc4242d0.css
+    |   |   |   autocomplete.4a81fc4242d0.css.gz
+    |   |   |   autocomplete.css
+    |   |   |   autocomplete.css.gz
+    |   |   |   base.64976e0f7339.css
+    |   |   |   base.64976e0f7339.css.gz
+    |   |   |   base.css
+    |   |   |   base.css.gz
+    |   |   |   changelists.9237a1ac391b.css
+    |   |   |   changelists.9237a1ac391b.css.gz
+    |   |   |   changelists.css
+    |   |   |   changelists.css.gz
+    |   |   |   dark_mode.css
+    |   |   |   dark_mode.css.gz
+    |   |   |   dark_mode.ef27a31af300.css
+    |   |   |   dark_mode.ef27a31af300.css.gz
+    |   |   |   dashboard.css
+    |   |   |   dashboard.css.gz
+    |   |   |   dashboard.e90f2068217b.css
+    |   |   |   dashboard.e90f2068217b.css.gz
+    |   |   |   forms.3b181cba6653.css
+    |   |   |   forms.3b181cba6653.css.gz
+    |   |   |   forms.css
+    |   |   |   forms.css.gz
+    |   |   |   login.586129c60a93.css
+    |   |   |   login.586129c60a93.css.gz
+    |   |   |   login.css
+    |   |   |   login.css.gz
+    |   |   |   nav_sidebar.269a1bd44627.css
+    |   |   |   nav_sidebar.269a1bd44627.css.gz
+    |   |   |   nav_sidebar.css
+    |   |   |   nav_sidebar.css.gz
+    |   |   |   responsive.107cd2690311.css
+    |   |   |   responsive.107cd2690311.css.gz
+    |   |   |   responsive.css
+    |   |   |   responsive.css.gz
+    |   |   |   responsive_rtl.97b066429fd8.css
+    |   |   |   responsive_rtl.97b066429fd8.css.gz
+    |   |   |   responsive_rtl.css
+    |   |   |   responsive_rtl.css.gz
+    |   |   |   rtl.4685390ad96d.css
+    |   |   |   rtl.4685390ad96d.css.gz
+    |   |   |   rtl.css
+    |   |   |   rtl.css.gz
+    |   |   |   widgets.0a3765e806b3.css
+    |   |   |   widgets.0a3765e806b3.css.gz
+    |   |   |   widgets.css
+    |   |   |   widgets.css.gz
+    |   |   |   
+    |   |   \---vendor
+    |   |       \---select2
+    |   |               LICENSE-SELECT2.f94142512c91.md
+    |   |               LICENSE-SELECT2.f94142512c91.md.gz
+    |   |               LICENSE-SELECT2.md
+    |   |               LICENSE-SELECT2.md.gz
+    |   |               select2.a2194c262648.css
+    |   |               select2.a2194c262648.css.gz
+    |   |               select2.css
+    |   |               select2.css.gz
+    |   |               select2.min.9f54e6414f87.css
+    |   |               select2.min.9f54e6414f87.css.gz
+    |   |               select2.min.css
+    |   |               select2.min.css.gz
+    |   |               
+    |   +---img
+    |   |   |   calendar-icons.39b290681a8b.svg
+    |   |   |   calendar-icons.39b290681a8b.svg.gz
+    |   |   |   calendar-icons.svg
+    |   |   |   calendar-icons.svg.gz
+    |   |   |   icon-addlink.d519b3bab011.svg
+    |   |   |   icon-addlink.d519b3bab011.svg.gz
+    |   |   |   icon-addlink.svg
+    |   |   |   icon-addlink.svg.gz
+    |   |   |   icon-alert.034cc7d8a67f.svg
+    |   |   |   icon-alert.034cc7d8a67f.svg.gz
+    |   |   |   icon-alert.svg
+    |   |   |   icon-alert.svg.gz
+    |   |   |   icon-calendar.ac7aea671bea.svg
+    |   |   |   icon-calendar.ac7aea671bea.svg.gz
+    |   |   |   icon-calendar.svg
+    |   |   |   icon-calendar.svg.gz
+    |   |   |   icon-changelink.18d2fd706348.svg
+    |   |   |   icon-changelink.18d2fd706348.svg.gz
+    |   |   |   icon-changelink.svg
+    |   |   |   icon-changelink.svg.gz
+    |   |   |   icon-clock.e1d4dfac3f2b.svg
+    |   |   |   icon-clock.e1d4dfac3f2b.svg.gz
+    |   |   |   icon-clock.svg
+    |   |   |   icon-clock.svg.gz
+    |   |   |   icon-deletelink.564ef9dc3854.svg
+    |   |   |   icon-deletelink.564ef9dc3854.svg.gz
+    |   |   |   icon-deletelink.svg
+    |   |   |   icon-deletelink.svg.gz
+    |   |   |   icon-no.439e821418cd.svg
+    |   |   |   icon-no.439e821418cd.svg.gz
+    |   |   |   icon-no.svg
+    |   |   |   icon-no.svg.gz
+    |   |   |   icon-unknown-alt.81536e128bb6.svg
+    |   |   |   icon-unknown-alt.81536e128bb6.svg.gz
+    |   |   |   icon-unknown-alt.svg
+    |   |   |   icon-unknown-alt.svg.gz
+    |   |   |   icon-unknown.a18cb4398978.svg
+    |   |   |   icon-unknown.a18cb4398978.svg.gz
+    |   |   |   icon-unknown.svg
+    |   |   |   icon-unknown.svg.gz
+    |   |   |   icon-viewlink.41eb31f7826e.svg
+    |   |   |   icon-viewlink.41eb31f7826e.svg.gz
+    |   |   |   icon-viewlink.svg
+    |   |   |   icon-viewlink.svg.gz
+    |   |   |   icon-yes.d2f9f035226a.svg
+    |   |   |   icon-yes.d2f9f035226a.svg.gz
+    |   |   |   icon-yes.svg
+    |   |   |   icon-yes.svg.gz
+    |   |   |   inline-delete.fec1b761f254.svg
+    |   |   |   inline-delete.fec1b761f254.svg.gz
+    |   |   |   inline-delete.svg
+    |   |   |   inline-delete.svg.gz
+    |   |   |   LICENSE
+    |   |   |   LICENSE.2c54f4e1ca1c
+    |   |   |   LICENSE.2c54f4e1ca1c.gz
+    |   |   |   LICENSE.gz
+    |   |   |   README.a70711a38d87.txt
+    |   |   |   README.a70711a38d87.txt.gz
+    |   |   |   README.txt
+    |   |   |   README.txt.gz
+    |   |   |   search.7cf54ff789c6.svg
+    |   |   |   search.7cf54ff789c6.svg.gz
+    |   |   |   search.svg
+    |   |   |   search.svg.gz
+    |   |   |   selector-icons.b4555096cea2.svg
+    |   |   |   selector-icons.b4555096cea2.svg.gz
+    |   |   |   selector-icons.svg
+    |   |   |   selector-icons.svg.gz
+    |   |   |   sorting-icons.3a097b59f104.svg
+    |   |   |   sorting-icons.3a097b59f104.svg.gz
+    |   |   |   sorting-icons.svg
+    |   |   |   sorting-icons.svg.gz
+    |   |   |   tooltag-add.e59d620a9742.svg
+    |   |   |   tooltag-add.e59d620a9742.svg.gz
+    |   |   |   tooltag-add.svg
+    |   |   |   tooltag-add.svg.gz
+    |   |   |   tooltag-arrowright.bbfb788a849e.svg
+    |   |   |   tooltag-arrowright.bbfb788a849e.svg.gz
+    |   |   |   tooltag-arrowright.svg
+    |   |   |   tooltag-arrowright.svg.gz
+    |   |   |   
+    |   |   \---gis
+    |   |           move_vertex_off.7a23bf31ef8a.svg
+    |   |           move_vertex_off.7a23bf31ef8a.svg.gz
+    |   |           move_vertex_off.svg
+    |   |           move_vertex_off.svg.gz
+    |   |           move_vertex_on.0047eba25b67.svg
+    |   |           move_vertex_on.0047eba25b67.svg.gz
+    |   |           move_vertex_on.svg
+    |   |           move_vertex_on.svg.gz
+    |   |           
+    |   \---js
+    |       |   actions.eac7e3441574.js
+    |       |   actions.eac7e3441574.js.gz
+    |       |   actions.js
+    |       |   actions.js.gz
+    |       |   autocomplete.01591ab27be7.js
+    |       |   autocomplete.01591ab27be7.js.gz
+    |       |   autocomplete.js
+    |       |   autocomplete.js.gz
+    |       |   calendar.f8a5d055eb33.js
+    |       |   calendar.f8a5d055eb33.js.gz
+    |       |   calendar.js
+    |       |   calendar.js.gz
+    |       |   cancel.ecc4c5ca7b32.js
+    |       |   cancel.ecc4c5ca7b32.js.gz
+    |       |   cancel.js
+    |       |   cancel.js.gz
+    |       |   change_form.9d8ca4f96b75.js
+    |       |   change_form.9d8ca4f96b75.js.gz
+    |       |   change_form.js
+    |       |   change_form.js.gz
+    |       |   collapse.f84e7410290f.js
+    |       |   collapse.f84e7410290f.js.gz
+    |       |   collapse.js
+    |       |   collapse.js.gz
+    |       |   core.cf103cd04ebf.js
+    |       |   core.cf103cd04ebf.js.gz
+    |       |   core.js
+    |       |   core.js.gz
+    |       |   filters.0e360b7a9f80.js
+    |       |   filters.0e360b7a9f80.js.gz
+    |       |   filters.js
+    |       |   filters.js.gz
+    |       |   inlines.22d4d93c00b4.js
+    |       |   inlines.22d4d93c00b4.js.gz
+    |       |   inlines.js
+    |       |   inlines.js.gz
+    |       |   jquery.init.b7781a0897fc.js
+    |       |   jquery.init.b7781a0897fc.js.gz
+    |       |   jquery.init.js
+    |       |   jquery.init.js.gz
+    |       |   nav_sidebar.3b9190d420b1.js
+    |       |   nav_sidebar.3b9190d420b1.js.gz
+    |       |   nav_sidebar.js
+    |       |   nav_sidebar.js.gz
+    |       |   popup_response.c6cc78ea5551.js
+    |       |   popup_response.c6cc78ea5551.js.gz
+    |       |   popup_response.js
+    |       |   popup_response.js.gz
+    |       |   prepopulate.bd2361dfd64d.js
+    |       |   prepopulate.bd2361dfd64d.js.gz
+    |       |   prepopulate.js
+    |       |   prepopulate.js.gz
+    |       |   prepopulate_init.6cac7f3105b8.js
+    |       |   prepopulate_init.6cac7f3105b8.js.gz
+    |       |   prepopulate_init.js
+    |       |   prepopulate_init.js.gz
+    |       |   SelectBox.7d3ce5a98007.js
+    |       |   SelectBox.7d3ce5a98007.js.gz
+    |       |   SelectBox.js
+    |       |   SelectBox.js.gz
+    |       |   SelectFilter2.bdb8d0cc579e.js
+    |       |   SelectFilter2.bdb8d0cc579e.js.gz
+    |       |   SelectFilter2.js
+    |       |   SelectFilter2.js.gz
+    |       |   theme.ab270f56bb9c.js
+    |       |   theme.ab270f56bb9c.js.gz
+    |       |   theme.js
+    |       |   theme.js.gz
+    |       |   urlify.ae970a820212.js
+    |       |   urlify.ae970a820212.js.gz
+    |       |   urlify.js
+    |       |   urlify.js.gz
+    |       |   
+    |       +---admin
+    |       |       DateTimeShortcuts.9f6e209cebca.js
+    |       |       DateTimeShortcuts.9f6e209cebca.js.gz
+    |       |       DateTimeShortcuts.js
+    |       |       DateTimeShortcuts.js.gz
+    |       |       RelatedObjectLookups.8609f99b9ab2.js
+    |       |       RelatedObjectLookups.8609f99b9ab2.js.gz
+    |       |       RelatedObjectLookups.js
+    |       |       RelatedObjectLookups.js.gz
+    |       |       
+    |       \---vendor
+    |           +---jquery
+    |           |       jquery.0208b96062ba.js
+    |           |       jquery.0208b96062ba.js.gz
+    |           |       jquery.js
+    |           |       jquery.js.gz
+    |           |       jquery.min.641dd1437010.js
+    |           |       jquery.min.641dd1437010.js.gz
+    |           |       jquery.min.js
+    |           |       jquery.min.js.gz
+    |           |       LICENSE.de877aa6d744.txt
+    |           |       LICENSE.de877aa6d744.txt.gz
+    |           |       LICENSE.txt
+    |           |       LICENSE.txt.gz
+    |           |       
+    |           +---select2
+    |           |   |   LICENSE.f94142512c91.md
+    |           |   |   LICENSE.f94142512c91.md.gz
+    |           |   |   LICENSE.md
+    |           |   |   LICENSE.md.gz
+    |           |   |   select2.full.c2afdeda3058.js
+    |           |   |   select2.full.c2afdeda3058.js.gz
+    |           |   |   select2.full.js
+    |           |   |   select2.full.js.gz
+    |           |   |   select2.full.min.fcd7500d8e13.js
+    |           |   |   select2.full.min.fcd7500d8e13.js.gz
+    |           |   |   select2.full.min.js
+    |           |   |   select2.full.min.js.gz
+    |           |   |   
+    |           |   \---i18n
+    |           |           af.4f6fcd73488c.js
+    |           |           af.4f6fcd73488c.js.gz
+    |           |           af.js
+    |           |           af.js.gz
+    |           |           ar.65aa8e36bf5d.js
+    |           |           ar.65aa8e36bf5d.js.gz
+    |           |           ar.js
+    |           |           ar.js.gz
+    |           |           az.270c257daf81.js
+    |           |           az.270c257daf81.js.gz
+    |           |           az.js
+    |           |           az.js.gz
+    |           |           bg.39b8be30d4f0.js
+    |           |           bg.39b8be30d4f0.js.gz
+    |           |           bg.js
+    |           |           bg.js.gz
+    |           |           bn.6d42b4dd5665.js
+    |           |           bn.6d42b4dd5665.js.gz
+    |           |           bn.js
+    |           |           bn.js.gz
+    |           |           bs.91624382358e.js
+    |           |           bs.91624382358e.js.gz
+    |           |           bs.js
+    |           |           bs.js.gz
+    |           |           ca.a166b745933a.js
+    |           |           ca.a166b745933a.js.gz
+    |           |           ca.js
+    |           |           ca.js.gz
+    |           |           cs.4f43e8e7d33a.js
+    |           |           cs.4f43e8e7d33a.js.gz
+    |           |           cs.js
+    |           |           cs.js.gz
+    |           |           da.766346afe4dd.js
+    |           |           da.766346afe4dd.js.gz
+    |           |           da.js
+    |           |           da.js.gz
+    |           |           de.8a1c222b0204.js
+    |           |           de.8a1c222b0204.js.gz
+    |           |           de.js
+    |           |           de.js.gz
+    |           |           dsb.56372c92d2f1.js
+    |           |           dsb.56372c92d2f1.js.gz
+    |           |           dsb.js
+    |           |           dsb.js.gz
+    |           |           el.27097f071856.js
+    |           |           el.27097f071856.js.gz
+    |           |           el.js
+    |           |           el.js.gz
+    |           |           en.cf932ba09a98.js
+    |           |           en.cf932ba09a98.js.gz
+    |           |           en.js
+    |           |           en.js.gz
+    |           |           es.66dbc2652fb1.js
+    |           |           es.66dbc2652fb1.js.gz
+    |           |           es.js
+    |           |           es.js.gz
+    |           |           et.2b96fd98289d.js
+    |           |           et.2b96fd98289d.js.gz
+    |           |           et.js
+    |           |           et.js.gz
+    |           |           eu.adfe5c97b72c.js
+    |           |           eu.adfe5c97b72c.js.gz
+    |           |           eu.js
+    |           |           eu.js.gz
+    |           |           fa.3b5bd1961cfd.js
+    |           |           fa.3b5bd1961cfd.js.gz
+    |           |           fa.js
+    |           |           fa.js.gz
+    |           |           fi.614ec42aa9ba.js
+    |           |           fi.614ec42aa9ba.js.gz
+    |           |           fi.js
+    |           |           fi.js.gz
+    |           |           fr.05e0542fcfe6.js
+    |           |           fr.05e0542fcfe6.js.gz
+    |           |           fr.js
+    |           |           fr.js.gz
+    |           |           gl.d99b1fedaa86.js
+    |           |           gl.d99b1fedaa86.js.gz
+    |           |           gl.js
+    |           |           gl.js.gz
+    |           |           he.e420ff6cd3ed.js
+    |           |           he.e420ff6cd3ed.js.gz
+    |           |           he.js
+    |           |           he.js.gz
+    |           |           hi.70640d41628f.js
+    |           |           hi.70640d41628f.js.gz
+    |           |           hi.js
+    |           |           hi.js.gz
+    |           |           hr.a2b092cc1147.js
+    |           |           hr.a2b092cc1147.js.gz
+    |           |           hr.js
+    |           |           hr.js.gz
+    |           |           hsb.fa3b55265efe.js
+    |           |           hsb.fa3b55265efe.js.gz
+    |           |           hsb.js
+    |           |           hsb.js.gz
+    |           |           hu.6ec6039cb8a3.js
+    |           |           hu.6ec6039cb8a3.js.gz
+    |           |           hu.js
+    |           |           hu.js.gz
+    |           |           hy.c7babaeef5a6.js
+    |           |           hy.c7babaeef5a6.js.gz
+    |           |           hy.js
+    |           |           hy.js.gz
+    |           |           id.04debded514d.js
+    |           |           id.04debded514d.js.gz
+    |           |           id.js
+    |           |           id.js.gz
+    |           |           is.3ddd9a6a97e9.js
+    |           |           is.3ddd9a6a97e9.js.gz
+    |           |           is.js
+    |           |           is.js.gz
+    |           |           it.be4fe8d365b5.js
+    |           |           it.be4fe8d365b5.js.gz
+    |           |           it.js
+    |           |           it.js.gz
+    |           |           ja.170ae885d74f.js
+    |           |           ja.170ae885d74f.js.gz
+    |           |           ja.js
+    |           |           ja.js.gz
+    |           |           ka.2083264a54f0.js
+    |           |           ka.2083264a54f0.js.gz
+    |           |           ka.js
+    |           |           ka.js.gz
+    |           |           km.c23089cb06ca.js
+    |           |           km.c23089cb06ca.js.gz
+    |           |           km.js
+    |           |           km.js.gz
+    |           |           ko.e7be6c20e673.js
+    |           |           ko.e7be6c20e673.js.gz
+    |           |           ko.js
+    |           |           ko.js.gz
+    |           |           lt.23c7ce903300.js
+    |           |           lt.23c7ce903300.js.gz
+    |           |           lt.js
+    |           |           lt.js.gz
+    |           |           lv.08e62128eac1.js
+    |           |           lv.08e62128eac1.js.gz
+    |           |           lv.js
+    |           |           lv.js.gz
+    |           |           mk.dabbb9087130.js
+    |           |           mk.dabbb9087130.js.gz
+    |           |           mk.js
+    |           |           mk.js.gz
+    |           |           ms.4ba82c9a51ce.js
+    |           |           ms.4ba82c9a51ce.js.gz
+    |           |           ms.js
+    |           |           ms.js.gz
+    |           |           nb.da2fce143f27.js
+    |           |           nb.da2fce143f27.js.gz
+    |           |           nb.js
+    |           |           nb.js.gz
+    |           |           ne.3d79fd3f08db.js
+    |           |           ne.3d79fd3f08db.js.gz
+    |           |           ne.js
+    |           |           ne.js.gz
+    |           |           nl.997868a37ed8.js
+    |           |           nl.997868a37ed8.js.gz
+    |           |           nl.js
+    |           |           nl.js.gz
+    |           |           pl.6031b4f16452.js
+    |           |           pl.6031b4f16452.js.gz
+    |           |           pl.js
+    |           |           pl.js.gz
+    |           |           ps.38dfa47af9e0.js
+    |           |           ps.38dfa47af9e0.js.gz
+    |           |           ps.js
+    |           |           ps.js.gz
+    |           |           pt-BR.e1b294433e7f.js
+    |           |           pt-BR.e1b294433e7f.js.gz
+    |           |           pt-BR.js
+    |           |           pt-BR.js.gz
+    |           |           pt.33b4a3b44d43.js
+    |           |           pt.33b4a3b44d43.js.gz
+    |           |           pt.js
+    |           |           pt.js.gz
+    |           |           ro.f75cb460ec3b.js
+    |           |           ro.f75cb460ec3b.js.gz
+    |           |           ro.js
+    |           |           ro.js.gz
+    |           |           ru.934aa95f5b5f.js
+    |           |           ru.934aa95f5b5f.js.gz
+    |           |           ru.js
+    |           |           ru.js.gz
+    |           |           sk.33d02cef8d11.js
+    |           |           sk.33d02cef8d11.js.gz
+    |           |           sk.js
+    |           |           sk.js.gz
+    |           |           sl.131a78bc0752.js
+    |           |           sl.131a78bc0752.js.gz
+    |           |           sl.js
+    |           |           sl.js.gz
+    |           |           sq.5636b60d29c9.js
+    |           |           sq.5636b60d29c9.js.gz
+    |           |           sq.js
+    |           |           sq.js.gz
+    |           |           sr-Cyrl.f254bb8c4c7c.js
+    |           |           sr-Cyrl.f254bb8c4c7c.js.gz
+    |           |           sr-Cyrl.js
+    |           |           sr-Cyrl.js.gz
+    |           |           sr.5ed85a48f483.js
+    |           |           sr.5ed85a48f483.js.gz
+    |           |           sr.js
+    |           |           sr.js.gz
+    |           |           sv.7a9c2f71e777.js
+    |           |           sv.7a9c2f71e777.js.gz
+    |           |           sv.js
+    |           |           sv.js.gz
+    |           |           th.f38c20b0221b.js
+    |           |           th.f38c20b0221b.js.gz
+    |           |           th.js
+    |           |           th.js.gz
+    |           |           tk.7c572a68c78f.js
+    |           |           tk.7c572a68c78f.js.gz
+    |           |           tk.js
+    |           |           tk.js.gz
+    |           |           tr.b5a0643d1545.js
+    |           |           tr.b5a0643d1545.js.gz
+    |           |           tr.js
+    |           |           tr.js.gz
+    |           |           uk.8cede7f4803c.js
+    |           |           uk.8cede7f4803c.js.gz
+    |           |           uk.js
+    |           |           uk.js.gz
+    |           |           vi.097a5b75b3e1.js
+    |           |           vi.097a5b75b3e1.js.gz
+    |           |           vi.js
+    |           |           vi.js.gz
+    |           |           zh-CN.2cff662ec5f9.js
+    |           |           zh-CN.2cff662ec5f9.js.gz
+    |           |           zh-CN.js
+    |           |           zh-CN.js.gz
+    |           |           zh-TW.04554a227c2b.js
+    |           |           zh-TW.04554a227c2b.js.gz
+    |           |           zh-TW.js
+    |           |           zh-TW.js.gz
+    |           |           
+    |           \---xregexp
+    |                   LICENSE.bf79e414957a.txt
+    |                   LICENSE.bf79e414957a.txt.gz
+    |                   LICENSE.txt
+    |                   LICENSE.txt.gz
+    |                   xregexp.efda034b9537.js
+    |                   xregexp.efda034b9537.js.gz
+    |                   xregexp.js
+    |                   xregexp.js.gz
+    |                   xregexp.min.b0439563a5d3.js
+    |                   xregexp.min.b0439563a5d3.js.gz
+    |                   xregexp.min.js
+    |                   xregexp.min.js.gz
+    |                   
+    \---api
+        \---spa
+            |   vite.8e3a10e157f7.svg
+            |   vite.8e3a10e157f7.svg.gz
+            |   vite.svg
+            |   vite.svg.gz
+            |   
+            \---assets
+                    index-4e5c0698.409c78790c0c.css
+                    index-4e5c0698.409c78790c0c.css.gz
+                    index-4e5c0698.css
+                    index-4e5c0698.css.gz
+                    index-8bab2f4f.a57f2cde48b3.js
+                    index-8bab2f4f.a57f2cde48b3.js.gz
+                    index-8bab2f4f.js
+                    index-8bab2f4f.js.gz
+                    
