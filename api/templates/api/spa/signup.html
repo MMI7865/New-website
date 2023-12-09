@@ -1,0 +1,12 @@
+{% extends 'api/spa/index.html' %}
+
+{% block content %}
+    <div id="signup-form">
+        <h2>Sign Up</h2>
+        <form method="post" enctype="multipart/form-data" action="{% url 'signup' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+{% endblock %}
