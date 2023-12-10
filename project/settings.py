@@ -144,15 +144,15 @@ AUTH_USER_MODEL = 'api.User'
 
 # Allow CORS Ajax requests
 
-if DEBUG:
-    CORS_ALLOWED_ORIGINS = [
-        "https://localhost:5173",
-    ]
+# if DEBUG:
+#     CORS_ALLOWED_ORIGINS = [
+#         "https://localhost:5173",
+#     ]
 
-    CORS_ALLOW_CREDENTIALS = True
-    SESSION_COOKIE_SAMESITE = 'None'
-    SESSION_COOKIE_HTTPONLY = False
+#     CORS_ALLOW_CREDENTIALS = True
+#     SESSION_COOKIE_SAMESITE = 'None'
+#     SESSION_COOKIE_HTTPONLY = False
 
-    CSRF_TRUSTED_ORIGINS = [
-        "https://localhost:5173",
-    ]
+#     CSRF_TRUSTED_ORIGINS = [
+#         "https://localhost:5173",
+#     ]

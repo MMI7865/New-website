@@ -25,4 +25,6 @@ urlpatterns = [
     path('articles/', article_list, name="home"),
     path('signup/', signup, name="signup"),
     path('login/', user_login, name="login"),
+    path('<str:username>/', user_profile, name='user-profile')
+    #path('logout/', user_logout, name='logout' ),
 ]

@@ -1,12 +1,33 @@
-{% extends 'api/spa/index.html' %}
+{% extends './index.html' %}
 
 {% block content %}
-    <div id="signup-form">
-        <h2>Sign Up</h2>
-        <form method="post" enctype="multipart/form-data" action="{% url 'signup' %}">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit">Sign Up</button>
-        </form>
+<div class="container mt-5">
+    <div class="col-md-6 offset-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Sign Up</h2>
+                <form method="post" enctype="multipart/form-data" action="{% url 'signup' %}" class="mt-4">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col-md-6">
+                            {{ form.username.label_tag }} {{ form.username }}
+                            <br>
+                            {{ form.email.label_tag }} {{ form.email }}
+                            <br>
+                            {{ form.password1.label_tag }} {{ form.password1 }}
+                            <br>
+                            {{ form.password2.label_tag }} {{ form.password2 }}
+                        </div>
+                        <div class="col-md-6">
+                            {{ form.profile_pic.label_tag }} {{ form.profile_pic }}
+                            <br>
+                            {{ form.date_of_birth.label_tag }} {{ form.date_of_birth }}
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Sign Up</button>
+                </form>
+            </div>
+        </div>
     </div>
+</div>
 {% endblock %}

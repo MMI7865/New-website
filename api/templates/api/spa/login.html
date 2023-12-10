@@ -1,12 +1,28 @@
-{% extends 'api/spa/index.html' %}
+{% extends './index.html' %}
 
 {% block content %}
-    <div id="login-form">
-        <h2>Login</h2>
-        <form method="post" action="{% url 'login' %}">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit">Login</button>
-        </form>
+<div class="container mt-5">
+    <div class="col-md-6 offset-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Login</h2>
+                {% if error %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error }}
+                    </div>
+                {% endif %}
+                <form method="post" action="{% url 'login' %}" class="mt-4">
+                    {% csrf_token %}
+                    {{ form.username.label_tag }} {{ form.username }}
+                    <br>
+                    <br>
+                    {{ form.password.label_tag }} {{ form.password }}
+                    <br>
+                    <button type="submit" class="btn btn-primary mt-3">Login</button>
+                </form>
+                <p class="mt-3">Don't have an account? <a href="{% url 'signup' %}">Sign up</a></p>
+            </div>
+        </div>
     </div>
+</div>
 {% endblock %}
